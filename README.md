@@ -5,3 +5,5 @@
 # IT Step Flutter Course Materials
 
 Here you can find all demo projects, reference links and presentations for our Flutter course :)
+
+[Environment setup (both Windows and MacOS)](https://github.com/AndyStef/FlutterITStepCourse/blob/main/Dev%20Environment%20Setup.md)
