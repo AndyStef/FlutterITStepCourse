@@ -19,6 +19,8 @@ Lesson 2 - Creating first Flutter project. Basic widgets:
 - [Базовий проект](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/first_flutter_demo)
 
 ## Must-know widgets:
+- [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
+
 Base general purpose:
 - [Material App - widget to configure your app](https://api.flutter.dev/flutter/material/MaterialApp-class.html)
 - [Scaffold - base skeleton of any screen](https://api.flutter.dev/flutter/material/Scaffold-class.html)
@@ -44,10 +46,6 @@ Base layout widgets:
 - [Column - vertical placement of multiple elements](https://api.flutter.dev/flutter/widgets/Column-class.html)
 - [Row - horizontal placement of multiple elements](https://api.flutter.dev/flutter/widgets/Row-class.html)
 - [Layout cheat sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
-
------
-
-- [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
 
 ## Dart:
 - [Main Dart tutorial](https://dart.dev/guides/language/language-tour)
