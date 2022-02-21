@@ -33,7 +33,7 @@ Base UI widgets:
 - [Floating action button - default round button at the bottom](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html)
 - [Elevated Button - default button with background](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
 - [Text Button - button with no visible borders](https://api.flutter.dev/flutter/material/TextButton-class.html)
-- 
+
 Base layout widgets:
 - [Center - place child in center of available space](https://api.flutter.dev/flutter/widgets/Center-class.html)
 - [Align - select in which corner to display child widget](https://api.flutter.dev/flutter/widgets/Align-class.html)
