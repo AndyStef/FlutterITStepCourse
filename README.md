@@ -48,3 +48,8 @@ Base layout widgets:
 -----
 
 - [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
+
+## Dart:
+- [Main Dart tutorial](https://dart.dev/guides/language/language-tour)
+- [Online Dart compiler](https://dartpad.dev/)
+- [Dart Best practices](https://dart.dev/guides/language/effective-dart)
