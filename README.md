@@ -43,6 +43,7 @@ Base layout widgets:
 - [Aspect Ratio - if you want widgets to be 3:2 or just square(1:1) then use me](https://api.flutter.dev/flutter/widgets/AspectRatio-class.html)
 - [Column - vertical placement of multiple elements](https://api.flutter.dev/flutter/widgets/Column-class.html)
 - [Row - horizontal placement of multiple elements](https://api.flutter.dev/flutter/widgets/Row-class.html)
+- [Layout cheat sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
 
 -----
 
