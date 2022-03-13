@@ -19,9 +19,9 @@ Lesson 2 - Creating first Flutter project. Basic widgets:
 - [Базовий проект](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/first_flutter_demo)
 
 Lesson 3 - Dart Basics. Layout widgets explained more deeply
-- [Dart Basics - variables, base types, functions, operators, flow control]()
-- [Layout widgets demo project]()
-- [Login screen demo project]()
+- [Dart Basics - variables, base types, functions, operators, flow control](https://github.com/AndyStef/FlutterITStepCourse/blob/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%97/Dart%20intro%2C%20layout%20widgets%20combined%2C%20writing%20logic.pdf)
+- [Layout widgets demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/layout_elements_demo)
+- [Login screen demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/login_screen_demo)
 
 ## Must-know widgets:
 - [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
@@ -50,6 +50,8 @@ Base layout widgets:
 - [Aspect Ratio - if you want widgets to be 3:2 or just square(1:1) then use me](https://api.flutter.dev/flutter/widgets/AspectRatio-class.html)
 - [Column - vertical placement of multiple elements](https://api.flutter.dev/flutter/widgets/Column-class.html)
 - [Row - horizontal placement of multiple elements](https://api.flutter.dev/flutter/widgets/Row-class.html)
+- [Expanded - widget for taking all available place](https://api.flutter.dev/flutter/widgets/Expanded-class.html)
+- [Safe area - avoid bottom or top unavailable area](https://api.flutter.dev/flutter/widgets/SafeArea-class.html)
 - [Layout cheat sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
 
 ## Dart:
