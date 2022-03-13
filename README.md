@@ -18,6 +18,11 @@ Lesson 2 - Creating first Flutter project. Basic widgets:
 - [What is widgets and basic widgets for your first Flutter App](https://github.com/AndyStef/FlutterITStepCourse/blob/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%97/What%20is%20widget%3F%20Basic%20widgets.pdf)
 - [Базовий проект](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/first_flutter_demo)
 
+Lesson 3 - Dart Basics. Layout widgets explained more deeply
+- [Dart Basics - variables, base types, functions, operators, flow control]()
+- [Layout widgets demo project]()
+- [Login screen demo project]()
+
 ## Must-know widgets:
 - [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
 
@@ -51,3 +56,8 @@ Base layout widgets:
 - [Main Dart tutorial](https://dart.dev/guides/language/language-tour)
 - [Online Dart compiler](https://dartpad.dev/)
 - [Dart Best practices](https://dart.dev/guides/language/effective-dart)
+- [Variables](https://dart.dev/guides/language/language-tour#variables)
+- [Built-in types](https://dart.dev/guides/language/language-tour#built-in-types)
+- [Functions](https://dart.dev/guides/language/language-tour#functions)
+- [Operators](https://dart.dev/guides/language/language-tour#operators)
+- [Control flow statements](https://dart.dev/guides/language/language-tour#control-flow-statements)
