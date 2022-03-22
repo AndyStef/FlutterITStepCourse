@@ -23,6 +23,12 @@ Lesson 3 - Dart Basics. Layout widgets explained more deeply
 - [Layout widgets demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/layout_elements_demo)
 - [Login screen demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/login_screen_demo)
 
+Lesson 4 - Stateful widgets. TextField and Buttons widgets. Refactoring of UI code. setState() function. Model classes creation 
+- [Login screen demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/login_screen_demo)
+
+Lesson 5 - How to display list of information (ListView, GridView). Navigation between screens. Theme object. Card and GestureDetector widgets.
+- [Fu~k Nestle demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/nestle_follow_russian_warship)
+
 ## Must-know widgets:
 - [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
 
