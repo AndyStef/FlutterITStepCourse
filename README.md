@@ -6,7 +6,6 @@
 
 Here you can find all demo projects, reference links and presentations for our Flutter course :)
 
-
 ## Presentations:
 Lesson 1 - Intro lesson about mobile in general and Flutter: 
 - [Course contents](https://github.com/AndyStef/FlutterITStepCourse/blob/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%97/%D0%9F%D1%80%D0%BE%20Flutter%20%D0%BA%D1%83%D1%80%D1%81.pdf)
@@ -29,23 +28,30 @@ Lesson 4 - Stateful widgets. TextField and Buttons widgets. Refactoring of UI co
 Lesson 5 - How to display list of information (ListView, GridView). Navigation between screens. Theme object. Card and GestureDetector widgets.
 - [Fu~k Nestle demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/nestle_follow_russian_warship)
 
+Lesson 6 - Classes and OOP in depth with Dart (Abstract classes, constructors, Inheritance and Mixins)
+- [OOP in Dart]()
+
 ## Must-know widgets:
 - [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
 
 Base general purpose:
 - [Material App - widget to configure your app](https://api.flutter.dev/flutter/material/MaterialApp-class.html)
 - [Scaffold - base skeleton of any screen](https://api.flutter.dev/flutter/material/Scaffold-class.html)
-- [Container - convenience widget for styling and positioning child widget](https://api.flutter.dev/flutter/widgets/Container-class.html)
+- [Navigator - use me to organise navigation](https://docs.flutter.dev/cookbook/navigation/navigation-basics)
+- [setState() - not a widget, but also must-know for understanding how app reloads UI](https://api.flutter.dev/flutter/widgets/State/setState.html)
 
 Base UI widgets:
-- [AppBar - top navigation bar](https://api.flutter.dev/flutter/material/AppBar-class.html)
 - [Text - display and style text how you want it](https://api.flutter.dev/flutter/widgets/Text-class.html)
 - [Image - display images you added to project or from internet](https://api.flutter.dev/flutter/widgets/Image-class.html)
 - [Cached Network Image - so you don't load your image 100500 times](https://www.youtube.com/watch?v=fnHr_rsQwDA&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG&index=7)
 - [Icon - small defined images](https://api.flutter.dev/flutter/widgets/Icon-class.html)
+
+Interactive widgets: 
 - [Floating action button - default round button at the bottom](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html)
 - [Elevated Button - default button with background](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)
 - [Text Button - button with no visible borders](https://api.flutter.dev/flutter/material/TextButton-class.html)
+- [Gesture Detector - add any possible gesture with this one](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
+- [Text Field - put some text in me](https://api.flutter.dev/flutter/material/TextField-class.html)
 
 Base layout widgets:
 - [Center - place child in center of available space](https://api.flutter.dev/flutter/widgets/Center-class.html)
@@ -54,11 +60,25 @@ Base layout widgets:
 - [Sized box - hard code sizes of your widget](https://api.flutter.dev/flutter/widgets/SizedBox-class.html)
 - [Fractionally sized box - hard code sizes of your widget in %](https://api.flutter.dev/flutter/widgets/FractionallySizedBox-class.html)
 - [Aspect Ratio - if you want widgets to be 3:2 or just square(1:1) then use me](https://api.flutter.dev/flutter/widgets/AspectRatio-class.html)
-- [Column - vertical placement of multiple elements](https://api.flutter.dev/flutter/widgets/Column-class.html)
-- [Row - horizontal placement of multiple elements](https://api.flutter.dev/flutter/widgets/Row-class.html)
 - [Expanded - widget for taking all available place](https://api.flutter.dev/flutter/widgets/Expanded-class.html)
 - [Safe area - avoid bottom or top unavailable area](https://api.flutter.dev/flutter/widgets/SafeArea-class.html)
 - [Layout cheat sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
+
+Multi-widgets layout elements: 
+- [Column - vertical placement of multiple elements](https://api.flutter.dev/flutter/widgets/Column-class.html)
+- [Row - horizontal placement of multiple elements](https://api.flutter.dev/flutter/widgets/Row-class.html)
+- [Grid view - display widgets in grid and configure size and count of elements to display](https://api.flutter.dev/flutter/widgets/GridView-class.html)
+- [List view - display full width list of widgets ](https://api.flutter.dev/flutter/widgets/ListView-class.html)
+
+Utility and design widgets: 
+- [Container - convenience widget for styling and positioning child widget](https://api.flutter.dev/flutter/widgets/Container-class.html)
+- [Card - container with some basic styling like rounded corners and shadows](https://api.flutter.dev/flutter/material/Card-class.html)
+- [ListTile - nice widget to create base list row with text, detail text or side icons](https://api.flutter.dev/flutter/material/ListTile-class.html)
+- [Theme object - use me to configure shared colors, fonts and styles](https://docs.flutter.dev/cookbook/design/themes)
+- [AppBar - top navigation bar](https://api.flutter.dev/flutter/material/AppBar-class.html)
+- [Drawer - easy to implement side menu](https://api.flutter.dev/flutter/material/Drawer-class.html)
+- [Alert Dialog - simplest way to show alert with some message and actions](https://api.flutter.dev/flutter/material/AlertDialog-class.html)
+- [Linear gradient - nice and shiny](https://api.flutter.dev/flutter/painting/LinearGradient-class.html)
 
 ## Dart:
 - [Main Dart tutorial](https://dart.dev/guides/language/language-tour)
@@ -69,3 +89,8 @@ Base layout widgets:
 - [Functions](https://dart.dev/guides/language/language-tour#functions)
 - [Operators](https://dart.dev/guides/language/language-tour#operators)
 - [Control flow statements](https://dart.dev/guides/language/language-tour#control-flow-statements)
+- [Classes](https://dart.dev/guides/language/language-tour#classes)
+- [Constructors](https://dart.dev/guides/language/language-tour#constructors)
+- [Abstract classes](https://dart.dev/guides/language/language-tour#abstract-classes)
+- [Inheritance](https://dart.dev/guides/language/language-tour#extending-a-class)
+- [Mixins](https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins)
