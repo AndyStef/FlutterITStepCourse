@@ -29,7 +29,18 @@ Lesson 5 - How to display list of information (ListView, GridView). Navigation b
 - [Fu~k Nestle demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/nestle_follow_russian_warship)
 
 Lesson 6 - Classes and OOP in depth with Dart (Abstract classes, constructors, Inheritance and Mixins)
-- [OOP in Dart]()
+- [OOP in Dart](https://github.com/AndyStef/FlutterITStepCourse/blob/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%97/OOP%20in%20Dart.pdf)
+
+Lesson 7 - Multithreading and networking in Flutter - how to use async-await and make HTTP requests to REST API
+- [Networking in Flutter](https://github.com/AndyStef/FlutterITStepCourse/blob/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%97/Networking%20in%20Flutter.pdf)
+- [Movies API demo projects](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/movies_api_app)
+
+Resourses: 
+- [JSON manual and automated serializing](https://docs.flutter.dev/development/data-and-backend/json)
+- [Full guide for parsing JSON](https://codewithandrea.com/articles/parse-json-dart)
+- [Concurrency in Dart](https://dart.dev/guides/language/concurrency)
+- [Background Isolate usage example](https://docs.flutter.dev/cookbook/networking/background-parsing)
+- [Async-await exercises](https://dart.dev/codelabs/async-await)
 
 ## Must-know widgets:
 - [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
@@ -94,3 +105,4 @@ Utility and design widgets:
 - [Abstract classes](https://dart.dev/guides/language/language-tour#abstract-classes)
 - [Inheritance](https://dart.dev/guides/language/language-tour#extending-a-class)
 - [Mixins](https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins)
+- [Async-await](https://dart.dev/guides/language/language-tour#asynchrony-support)
