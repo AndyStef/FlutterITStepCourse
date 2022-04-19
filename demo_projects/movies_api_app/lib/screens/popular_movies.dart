@@ -1,17 +1,18 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
-import 'package:movies_api_app/movie.dart';
-import 'package:movies_api_app/movies_api_manager.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+import '../models/movie.dart';
+import '../services/movies_api_manager.dart';
 
+class PopularMoviesListScreen extends StatefulWidget {
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  _PopularMoviesListScreenState createState() => _PopularMoviesListScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _PopularMoviesListScreenState extends State<PopularMoviesListScreen>
+    with AutomaticKeepAliveClientMixin<PopularMoviesListScreen> {
+  @override
+  get wantKeepAlive => true;
+
   var moviesService = MoviesApiService();
   var counter = 0;
   List<Movie> movies = [];
@@ -31,13 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Movies App'),
-        backgroundColor: Colors.pink,
-      ),
-      body: _buildGridView(),
-    );
+    return _buildGridView();
   }
 
   GridView _buildGridView() {
@@ -46,14 +41,14 @@ class _HomeScreenState extends State<HomeScreen> {
       crossAxisCount: 2,
       padding: const EdgeInsets.all(4.0),
       children: movies.map((movie) {
-        return _MovieGridCell(movie: movie);
+        return MovieGridCell(movie: movie);
       }).toList(),
     );
   }
 }
 
-class _MovieGridCell extends StatelessWidget {
-  const _MovieGridCell({
+class MovieGridCell extends StatelessWidget {
+  const MovieGridCell({
     Key? key,
     required this.movie,
   }) : super(key: key);
