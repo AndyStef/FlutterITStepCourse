@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "178457720654",
+    "project_id": "itstep-firebase-demo",
+    "storage_bucket": "itstep-firebase-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178457720654:android:4a5dd4feaf1ce7ef4a901f",
+        "android_client_info": {
+          "package_name": "com.itstep.firebase_demo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178457720654-eee7jfkmu0voiel57as9l0lgmnv4vs0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvYyvJwmh_R2xdLOtanFemBqBwi0v6JQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178457720654-eee7jfkmu0voiel57as9l0lgmnv4vs0u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "178457720654-p6ocamnq46g9hddid3gs69k17uhkdelp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.itstep.firebaseDemoApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
