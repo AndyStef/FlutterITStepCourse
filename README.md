@@ -31,7 +31,7 @@ Lesson 5 - How to display list of information (ListView, GridView). Navigation b
 Lesson 6 - Classes and OOP in depth with Dart (Abstract classes, constructors, Inheritance and Mixins)
 - [OOP in Dart](https://github.com/AndyStef/FlutterITStepCourse/blob/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%97/OOP%20in%20Dart.pdf)
 
-Lesson 7 - Multithreading and networking in Flutter - how to use async-await and make HTTP requests to REST API
+Lesson 7-8 - Multithreading and networking in Flutter - how to use async-await and make HTTP requests to REST API. What is Future and FutureBuilder?
 - [Networking in Flutter](https://github.com/AndyStef/FlutterITStepCourse/blob/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D1%96%D1%97/Networking%20in%20Flutter.pdf)
 - [Movies API demo projects](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/movies_api_app)
 
@@ -41,6 +41,10 @@ Resourses:
 - [Concurrency in Dart](https://dart.dev/guides/language/concurrency)
 - [Background Isolate usage example](https://docs.flutter.dev/cookbook/networking/background-parsing)
 - [Async-await exercises](https://dart.dev/codelabs/async-await)
+
+Lesson 9-10 - Working with Firebase services
+- [Firebase demo project](https://github.com/AndyStef/FlutterITStepCourse/tree/main/demo_projects/firebase_demo_app)
+
 
 ## Must-know widgets:
 - [Full list of main widgets](https://docs.flutter.dev/development/ui/widgets)
